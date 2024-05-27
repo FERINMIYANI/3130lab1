@@ -7,7 +7,7 @@ const About = () => {
 
     useEffect(() => {
         const getV = localStorage.getItem('visit');
-        setVisit((parseInt(getV)/2) + 1);
+        setVisit((parseInt(getV)) + 1);
     }, [])
 
 
